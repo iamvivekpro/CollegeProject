@@ -12,7 +12,10 @@ class B extends A{
 }
 class C{
 	
-	C(){}
+	C(){
+
+		System.out.println("Hello World");
+	}
 }
 public class TestPro {
 	public static void main(String []a) {
