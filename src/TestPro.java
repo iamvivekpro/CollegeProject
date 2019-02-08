@@ -20,7 +20,7 @@ public class TestPro {
 	B obj=new B();
 	C obs=new C();
 	Object ob2=new Object();   						//Hello World
-	System.out.println(obj1 instanceof Object);
+	System.out.println(obj1 instanceof Object);		//Hello World
 	
 	System.out.println("hello New Branch");
 	
