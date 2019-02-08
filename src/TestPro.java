@@ -1,19 +1,17 @@
 import java.util.*;
 class A{
-	int a;
-	public A() {}
+	/*
+	 * int a; public A() {}
+	 */
 }
 class B extends A{
 	int b;
 	public B() {
 		System.out.println("Hello World");
-		
 	}
 }
 class C{
-	
 	C(){
-
 		System.out.println("Hello World");
 	}
 }
