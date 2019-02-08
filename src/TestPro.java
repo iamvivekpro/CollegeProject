@@ -21,5 +21,6 @@ public class TestPro {
 	C obs=new C();
 	Object ob2=new Object();
 	System.out.println(obj1 instanceof Object);
+	System.out.println("hello New Branch");
 	}
 }
