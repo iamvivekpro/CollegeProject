@@ -19,8 +19,10 @@ public class TestPro {
 	A obj1=new A();
 	B obj=new B();
 	C obs=new C();
-	Object ob2=new Object();
+	Object ob2=new Object();   						//Hello World
 	System.out.println(obj1 instanceof Object);
+	
 	System.out.println("hello New Branch");
+	
 	}
 }
