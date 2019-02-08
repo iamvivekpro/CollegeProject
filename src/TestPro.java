@@ -6,7 +6,7 @@ class A{
 class B extends A{
 	int b;
 	public B() {
-		
+		System.out.println("Hello World")
 		
 	}
 }
