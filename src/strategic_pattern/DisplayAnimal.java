@@ -2,8 +2,9 @@ package strategic_pattern;
 
 class DisplayAnimal implements IDisplay{
 	IDisplay id;
-	public DisplayAnimal() {
+	public DisplayAnimal(IDisplay ds) {
 		// TODO Auto-generated constructor stub
+		this.id=ds;
 		
 	}
 	@Override

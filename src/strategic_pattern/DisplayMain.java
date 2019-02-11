@@ -5,8 +5,9 @@ public class DisplayMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		DisplayAnimal ds=new DisplayAnimal();
-		ds.display();
+	
+		DisplayAnimal d1s=new DisplayAnimal(new DisplayTiger());
+		d1s.display();
 	}
 
 }
