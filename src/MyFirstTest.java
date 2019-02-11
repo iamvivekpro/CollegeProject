@@ -6,7 +6,7 @@ class MyFirstTest {
 
 	@Test
 	void testMain() {
-		fail("Not yet implemented");
+		fail("Not yet implemensfsfsfted");
 	}
 
 }
