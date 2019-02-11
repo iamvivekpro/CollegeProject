@@ -17,11 +17,11 @@ public class AwtControllDemo {
 
 	   private void prepareGUI(){
 	      mainFrame = new Frame("Java AWT Examples");
-	      mainFrame.setSize(400,400);
+	      mainFrame.setSize(1280,720);
 	      mainFrame.setLayout(new GridLayout(3, 1));
 	      mainFrame.addWindowListener(new WindowAdapter() {
 	         public void windowClosing(WindowEvent windowEvent){
-	            System.exit(0);
+	            System.exit(0);//Hello World
 	         }        
 	      });    
 	      headerLabel = new Label();
