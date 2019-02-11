@@ -4,6 +4,7 @@ class DisplayAnimal implements IDisplay{
 	IDisplay id;
 	public DisplayAnimal() {
 		// TODO Auto-generated constructor stub
+		
 	}
 	@Override
 	public void display() {
