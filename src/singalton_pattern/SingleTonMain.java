@@ -6,7 +6,7 @@ public class SingleTonMain {
 		// TODO Auto-generated method stub
 		Singelton s=Singelton.getInstanceSingelton();
 		
-		s.display();
+		Singelton.display();
 		System.out.println(s);
 	}
 

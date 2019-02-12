@@ -1,4 +1,4 @@
-import java.util.*;
+
 class A{
 	/*
 	 * int a; public A() {}
@@ -18,9 +18,8 @@ class C{
 public class TestPro {
 	public static void main(String []a) {
 	A obj1=new A();
-	B obj=new B();
-	C obs=new C();
-	Object ob2=new Object();   						//Hello World
+	
+	  						//Hello World
 	System.out.println(obj1 instanceof Object);		//Hello World
 	
 	System.out.println("hello New Branch");
