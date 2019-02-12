@@ -21,6 +21,7 @@ public class AwtControllDemo {
 	      mainFrame.setLayout(new GridLayout(3, 1));
 	      mainFrame.addWindowListener(new WindowAdapter() {
 	         public void windowClosing(WindowEvent windowEvent){
+	        	 
 	            System.exit(0);//Hello World
 	         }        
 	      });    
