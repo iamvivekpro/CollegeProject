@@ -28,9 +28,10 @@ public myImage()
    b.addActionListener(this);
    b1.addActionListener(this);
    System.out.println("Hello");
-   m = new ImageIcon[2];
-   m[0] = new ImageIcon("./a.png");
-   m[1] = new ImageIcon("b.png");
+   m = new ImageIcon[3];
+   m[0] = new ImageIcon("C:\\Users\\vivek.kumar\\Documents\\Codebase\\College\\CollegeProjects\\src\\SliderAWT\\img1.jpg");
+   m[1] = new ImageIcon("C:\\Users\\vivek.kumar\\Documents\\Codebase\\College\\CollegeProjects\\src\\SliderAWT\\img2.jpg");
+   m[2] = new ImageIcon("C:\\Users\\vivek.kumar\\Documents\\Codebase\\College\\CollegeProjects\\src\\SliderAWT\\img3.jpg");
    System.out.println("Hello");
    l = new JLabel();
    l.setBounds(400, 0, getWidth(), getHeight());
@@ -45,7 +46,9 @@ public  void actionPerformed(ActionEvent e)
    {
        if(i==0)
        {
-           JOptionPane.showMessageDialog(null,"This is First Image");
+         //  JOptionPane.showMessageDialog(null,"This is First Image");
+           i=m.length;
+           
        }
        else
            {
@@ -57,7 +60,8 @@ public  void actionPerformed(ActionEvent e)
    {
        if(i==m.length-1)
        {
-           JOptionPane.showMessageDialog(null,"This is LastImage");
+          // JOptionPane.showMessageDialog(null,"This is LastImage");
+           i=-1;
        }
        else
            {
