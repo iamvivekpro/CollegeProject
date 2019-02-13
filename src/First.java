@@ -1,5 +1,5 @@
 import java.awt.*; 
-public class First extends Frame {
+class First extends Frame {
 
 	public First() {
 		// TODO Auto-generated constructor stub
