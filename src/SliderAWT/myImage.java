@@ -55,11 +55,16 @@ public  void actionPerformed(ActionEvent e)
 			l.setIcon(m[i]);
 			
 		}else {
-		pos=i%m.length;
-		l.setIcon(m[pos]);
-		i--;
+			if(i==0) {
+				i=(m.length)-1;
+				l.setIcon(m[i]);
+			}else {
+			pos=i%m.length;
+			l.setIcon(m[pos]);
+			i--;
+			}
 		}
-		}
+	}
 	else if(e.getSource()==b1) {
 			pos=i%m.length;
 			l.setIcon(m[pos]);
