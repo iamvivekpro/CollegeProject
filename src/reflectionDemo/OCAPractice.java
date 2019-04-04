@@ -7,7 +7,7 @@ public class OCAPractice {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		OCAPractice p=new OCAPractice();
-		System.out.println("Value of Num=");
+		System.out.println("Value vgvhof Num=");
 	}
 
 }
